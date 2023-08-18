@@ -113,7 +113,7 @@ public class MqttPublishSample {
     public static void main(String[] args) {
 
         String topic        = "flomon/telemetry";
-        String content      = "{\"deviceKey\":\"env-B11\", \"temperature\": 25.7, \"soil_moisture\": 69}";
+        String content      = "{\"deviceKey\":\"env-B12\", \"temperature\": 25.7, \"soil_moisture\": 69}";
         int qos             = 1;
         String broker       = "https://farm.inforzia.io:1883";
         String clientId     = "JavaSample";
