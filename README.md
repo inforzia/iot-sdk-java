@@ -1,6 +1,6 @@
 
 
-# ![Flomon](https://img.shields.io/badge/FLOMON-blue) MQTT Java Client
+# ![Flomon](https://img.shields.io/badge/FLOMON-blue) Java Client SDK for the MQTT Protocol
 
 The Flomon Java Client is an MQTT client library written in Java for developing applications that run on the JVM or other Java compatible platforms such as Android
 
