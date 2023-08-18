@@ -112,10 +112,10 @@ public class MqttPublishSample {
 
     public static void main(String[] args) {
 
-        String topic        = "MQTT Examples";
-        String content      = "Message from MqttPublishSample";
-        int qos             = 2;
-        String broker       = "tcp://iot.eclipse.org:1883";
+        String topic        = "flomon/telemetry";
+        String content      = "{\"deviceKey\":\"env-B11\", \"temperature\": 25.7, \"soil_moisture\": 69}";
+        int qos             = 1;
+        String broker       = "https://farm.inforzia.io:1883";
         String clientId     = "JavaSample";
         MemoryPersistence persistence = new MemoryPersistence();
 
