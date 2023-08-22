@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.inforzia.iot</groupId>
-    <artifactId>BMT_SDK</artifactId>
+    <artifactId>SDK_Sample_project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
