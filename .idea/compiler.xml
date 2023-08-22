@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.ibm.wiotp.sdk" target="1.8" />
+      <module name="java-parent" target="1.5" />
+      <module name="org.eclipse.paho.client.mqttv3" target="1.5" />
+      <module name="org.eclipse.paho.client.mqttv3.repository" target="1.5" />
+      <module name="org.eclipse.paho.client.mqttv3.test" target="1.8" />
+      <module name="org.eclipse.paho.mqttv5.client" target="1.8" />
+      <module name="org.eclipse.paho.mqttv5.client.repository" target="1.5" />
+      <module name="org.eclipse.paho.mqttv5.client.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
