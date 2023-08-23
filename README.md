@@ -5,7 +5,7 @@
 # Java Client SDK for the MQTT Protocol
 
 The Flomon Device Client is an MQTT client library written in Java for developing applications that run on the JVM or other Java compatible platforms such as Android.
-This code is forked from [![Flomon](https://img.shields.io/badge/Paho-Project-blue)](https://github.com/orgs/eclipse/repositories?q=java+mqtt&type=all&language=&sort=)![Flomon](https://img.shields.io/badge/version-1.2.5-blue).
+This code is fully compatible with the [![Flomon](https://img.shields.io/badge/Paho-Project-blue)](https://github.com/orgs/eclipse/repositories?q=java+mqtt&type=all&language=&sort=)![Flomon](https://img.shields.io/badge/version-1.2.5-blue).
 
 The Flomon Device Client provides APIs: MqttClient provides a fully asynchronous API where completion of activities is notified via registered callbacks. MqttClient is a synchronous wrapper around MqttAsyncClient where functions appear synchronous to the application.
 
