@@ -120,3 +120,11 @@ $ java -cp "./SDK_Sample_project-1.0-SNAPSHOT.jar;../lib/IOT_SDK-1.0-SNAPSHOT-ja
 
 ### Execution Result
 Temperature and soil moisture data are sent to the Flomon IoT Platform every second, and this data can be viewed in the Flomon IoT Monitoring Tab.
+```shell
+Client publish Message.
+{"deviceKey":"env-B14","temperature":30.29,"soil_moisture":54.03}
+Message delivery Complete.
+Client publish Message.
+{"deviceKey":"env-B14","temperature":30.16,"soil_moisture":54.99}
+Message delivery Complete.
+```
