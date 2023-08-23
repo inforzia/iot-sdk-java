@@ -12,6 +12,9 @@ The Flomon Device Client provides APIs: MqttClient provides a fully asynchronous
 ## Usage
 This SDK is used by registering it as an external library. 
 Go to the git repository [![SDK Repository](https://img.shields.io/badge/Inforzia%20SDK-Repo-green)](https://github.com/inforzia/mqtt.java-sdk)
+```less
+$ git clone https://github.com/inforzia/iot-sdk-java.git
+```
 and clone the IOT-SDK project. And Build it at the root directory.
 ```less
 $ mvn clean package
