@@ -53,7 +53,7 @@ Then, through the build plugin, register the path to your project's Main Class.
     </build>
 ```
 
-## IOT Device Publish Sample Project
+## IOT Device Sample Project
 This `sample project` connects to the MQTT Broker of ![Flomon](https://img.shields.io/badge/Flomon-8A2BE2)(Inforzia IoT Platform) and sends data to the environmental sensor resource. To connect to Flomon and send data, the following prerequisites are required:
 
 ### Prerequisites
