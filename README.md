@@ -19,7 +19,7 @@ And Build it at the root directory.
 ```less
 $ mvn clean package
 ```
-The `IOT_SDK-1.0-SNAPSHOT-jar-with-dependencies.jar` file will be generated in the `{basedir}/target/ directory`. Create a `lib` folder in the root of your project and copy this SDK file into it.
+The `IOT_SDK-1.0.0-jar-with-dependencies.jar` file will be generated in the `{basedir}/target/ directory`. Create a `lib` folder in the root of your project and copy this SDK file into it.
 Now add the following dependency to your project's pom.xml:
 
 ```xml
@@ -28,7 +28,7 @@ Now add the following dependency to your project's pom.xml:
     <artifactId>iot-sdk-java</artifactId>
     <version>1.1.1</version>
     <scope>system</scope>
-    <systemPath>${project.basedir}/lib/IOT_SDK-1.0-SNAPSHOT-jar-with-dependencies.jar</systemPath>
+    <systemPath>${project.basedir}/lib/IOT_SDK-1.0.0-jar-with-dependencies.jar</systemPath>
 </dependency>
 ```
 
@@ -115,7 +115,7 @@ $ mvn clean install
 Now inject the class path and Main class to run (in Windows cmd environment):
 
 ```less
-$ java -cp "./SDK_Sample_project-1.0-SNAPSHOT.jar;../lib/IOT_SDK-1.0-SNAPSHOT-jar-with-dependencies.jar" io.inforzia.iot.Main [brokerUrl] [username] [password]
+$ java -cp "./SDK_Sample_project-1.0.0.jar;../lib/IOT_SDK-1.0.0-jar-with-dependencies.jar" io.inforzia.iot.Main [brokerUrl] [username] [password]
 ```
 
 ### Execution Result
