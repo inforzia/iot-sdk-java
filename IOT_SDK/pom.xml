@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.inforzia.iot</groupId>
-    <artifactId>IOT_SDK</artifactId>
+    <artifactId>flomon_iot_sdk_java</artifactId>
     <version>1.0.0</version>
 
     <properties>
