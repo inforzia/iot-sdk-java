@@ -26,7 +26,7 @@ Now add the following dependency to your project's pom.xml:
 <dependency>
     <groupId>io.inforzia</groupId>
     <artifactId>iot-sdk-java</artifactId>
-    <version>1.1.1</version>
+    <version>1.0.0</version>
     <scope>system</scope>
     <systemPath>${project.basedir}/lib/IOT_SDK-1.0.0-jar-with-dependencies.jar</systemPath>
 </dependency>
